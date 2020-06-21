@@ -19,13 +19,9 @@
   font-size: 15px;
   padding: 8px 12px;
   left: 8px;
-  position: absolute;
-  width: 100%;
-}
-
-/* Number text (1/2 etc) */
-.NumberText {
   position: relative;
+  width: 100%;
+  color: cadetblue;
 }
 
 /* Fading animation */

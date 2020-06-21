@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './ImageCarousel.css';
-import GM from '../../../assets/images/app_logo.jpg';
-import AGM from '../../../assets/images/altlogo.png';
 
 let slideIndex = 0;
+let timer;
 
 const showSlides = () => {
   let i;
@@ -15,34 +14,33 @@ const showSlides = () => {
   slideIndex++;
   
   if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 2500); // Change image every 2 seconds
+  slides[slideIndex - 1].style.display = "block"; 
+
+   timer = setTimeout(showSlides, 2500);
+
 };
 
 class ImageCarousel extends Component {
     componentDidMount() {
-        showSlides();
+        showSlides();       
     };
 
+    componentWillUnmount() {
+      clearTimeout(timer);
+    };
+    
     render() {
         return (
             <div className="CarouselContainer">
-                <div className="MySlides Fade">
-                    <div className="NumberText">1 / 2</div>
-                    <img src={GM} alt="" className="Images" />
+            {this.props.imgs.map((img, index) => (
+                    <div className="MySlides Fade" key={index}>
+                    <img src={img.path} alt={img.altText} className="Images" />
                     <br />
                     <br />
-                    <div className="Caption">Jai Mata Di!</div>
-                </div>
-
-                <div className="MySlides Fade">
-                    <div className="NumberText">2 / 2</div>
-                    <img src={AGM} alt="" className="Images" />
-                    <br />
-                    <br />
-                    <div className="Caption">Jai Mata Di!</div>
-                </div>
-             </div>
+                    <div className="Caption">{img.caption}</div>
+                   </div>
+                ))}        
+             </div> 
        );
     }
 }

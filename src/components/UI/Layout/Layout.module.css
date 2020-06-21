@@ -1,9 +1,16 @@
-.Content {
-    margin-top: 72px;
-}
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.Content {
+  margin-top: 12vh;
+}
+
+@media (max-width: 500px) {
+    .Content {
+        margin-top: 10vh;
+    }
 }

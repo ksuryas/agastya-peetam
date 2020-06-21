@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Layout from './components/UI/Layout/Layout';
-import cmp from './helpers/componentsHelper';
+import cmp from './helpers/navHelper';
 
 class App extends Component {
    render() {

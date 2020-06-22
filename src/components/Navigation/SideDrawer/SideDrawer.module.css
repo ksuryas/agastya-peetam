@@ -19,14 +19,20 @@
 }
 
 .Open {
-transform: translateX(0);
+    transform: translateX(0);
 }
 
 .Close {
-transform: translateX(-100%);
+    transform: translateX(-100%);
 }
 
 .Logo {
-    height: 11%;
-    margin-bottom: 32px;
+    height: 8%; /* if logo bigger, it will be 11 or 12% */
+}
+
+.CloseButton {
+    border: none;
+    background-color: rgb(245, 234, 227);
+    font-size: 24px;
+    color: rebeccapurple; /* or royalblue, or rosybrown look good too */
 }

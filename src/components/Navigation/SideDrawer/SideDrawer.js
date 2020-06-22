@@ -14,6 +14,10 @@ return (
 <div>  
     <Backdrop show={props.open} clicked={props.closed} />
     <div className={attachedClasses.join(' ')} onClick={props.closed}>
+        <button className={classes.CloseButton} onClick={props.closed}>
+        <i className="fa fa-close" />
+        </button>
+        
         <div className={classes.Logo}>
             <Logo />
         </div>

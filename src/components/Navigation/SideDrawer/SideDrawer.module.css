@@ -3,6 +3,7 @@
    width: 280px;
    max-width: 70%;
    height: 100%;
+   font-size: 3.5vw;
    left: 0;
    top: 0; 
    z-index: 200;
@@ -26,13 +27,9 @@
     transform: translateX(-100%);
 }
 
-.Logo {
-    height: 8%; /* if logo bigger, it will be 11 or 12% */
-}
-
 .CloseButton {
     border: none;
     background-color: rgb(245, 234, 227);
-    font-size: 24px;
+    font-size: 16px;
     color: rebeccapurple; /* or royalblue, or rosybrown look good too */
 }

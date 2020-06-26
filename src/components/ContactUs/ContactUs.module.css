@@ -1,3 +1,8 @@
-.Details {
+.ContactUs {
+    width: 50vw;
+    height: 50vh;
+}
+
+.Details, .EmailTel {
     color: royalblue;
 }

@@ -18,10 +18,9 @@ return (
         <i className="fa fa-close" />
         </button>
         
-        <div className={classes.Logo}>
+        {/*<div className={classes.Logo}>
             <Logo />
-        </div>
-   
+         </div> */}
     <nav>
         <NavigationItems />
      </nav>

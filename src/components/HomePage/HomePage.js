@@ -4,11 +4,11 @@ import ImageCarousel from './ImageCarousel/ImageCarousel';
 const HomePage = () => {
       const allImages = [
         {
-          path: '/images/app_logo.jpg', 
+          path: '/images/gm1.jpg', 
           altText: 'Goddess Vaishnodevi!', 
           caption: 'Jai Mata Di!'
         }, {
-          path: '/images/altlogo.png', 
+          path: '/images/gm2.png', 
           altText: 'Powerful Goddess Vaishnodevi!', 
           caption: 'Jai Maa!'
         }

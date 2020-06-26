@@ -8,6 +8,7 @@ class App extends Component {
     let routes = (
          <Switch>
             <Route path="/" exact component={cmp.home} />  
+            <Route path="/about-agastya-peetam/" component={cmp.about} />
             <Route path="/about-swamiji/" component={cmp.aboutSwamiji} />
             <Route path="/books-written-by-swamiji/" component={cmp.books} />
             <Route path="/about-gayathri-maha-purashcharana/" component={cmp.gmp} />

@@ -1,6 +1,7 @@
 import asyncComponent from '../hoc/asyncComponent/asyncComponent';
 
 const asyncHomePage = asyncComponent(() => import('../components/HomePage/HomePage'));
+const asyncAboutAGPPage = asyncComponent(() => import('../components/About/About'));
 const asyncAboutSwamijiPage = asyncComponent(() => import('../components/About/AboutSwamiji/AboutSwamiji')); 
 const asyncBooksPage = asyncComponent(() => import('../components/BooksBySwamiji/BooksBySwamiji'));
 const asyncAboutGMPPage = asyncComponent(() => import('../components/About/AboutGMP/AboutGMP'));
@@ -11,6 +12,7 @@ const async404Page = asyncComponent(() => import('../components/UI/PageNotFound/
 
 const cmp = {
     home: asyncHomePage,
+    about: asyncAboutAGPPage,
     aboutSwamiji: asyncAboutSwamijiPage,
     books: asyncBooksPage,
     gmp: asyncAboutGMPPage,

@@ -32,20 +32,22 @@ class Donate extends Component {
             <div>
                 <h3>Donate to Agastya Peetam!</h3>
                 <p>If you feel like what Swamiji is doing is noble, then please enter the details below.</p>
-                   <form className={classes.DonationForm}>
-                   {error} 
-                   <label>Amount: </label>
-                   <input 
-                   type="number" 
-                   value={this.state.donationAmount} 
-                   min="1.00" 
-                   max="300.00" 
-                   onChange={this.changeAmount} />
-                   <label> Indian Rupees (INR)</label>
+                {/* <p className={classes.DonationValuedText}>Your donation is greatly appreciated and valued!</p> - In Success page */}
+         
+                <form className={classes.DonationForm}>
+                {error} 
+                <label>Amount: </label>
+                <input 
+                type="number" 
+                value={this.state.donationAmount} 
+                min="1.00" 
+                max="300.00" 
+                onChange={this.changeAmount} />
+                <label> Indian Rupees (INR)</label>
                    
-                   <br />
-                   <br />
-                   <button type="submit" className={classes.DonateButton}>Donate</button>
+               <br />
+                <br />
+                <button type="submit" className={classes.DonateButton}>Donate</button>
                 </form>
             </div>
         );

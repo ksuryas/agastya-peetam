@@ -1,29 +1,13 @@
 import React, { Component } from 'react';
 import classes from './Layout.module.css';
-import Toolbar from '../../Navigation/Toolbar/Toolbar';
-import SideDrawer from '../../Navigation/SideDrawer/SideDrawer';
+import WrapperApp from '../../../hoc/WrapperApp/WrapperApp';
 
 class Layout extends Component {
-state = {
-    showSideDrawer: false
-};
-
-sideDrawerClosedHandler = () => {
-    this.setState({showSideDrawer: false});
-};
-
-sideDrawerToggleHandler = () => {
-    this.setState((prevState) => {
-        return {showSideDrawer: !prevState.showSideDrawer};
-    });
-};
-
-render() {
+ render() {
   return (
-    <div>
-    <Toolbar toggleSideDrawer={this.sideDrawerToggleHandler} />
-    <SideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler} />
-    <main className={classes.Content}>
+    <div className={classes.Layout}>
+    <WrapperApp />
+    <main className={classes.Content}> 
        {this.props.children}
     </main>
     </div>

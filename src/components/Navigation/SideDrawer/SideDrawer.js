@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../UI/Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import classes from './SideDrawer.module.css';
 import Backdrop from '../../UI/Backdrop/Backdrop';
@@ -17,10 +16,6 @@ return (
         <button className={classes.CloseButton} onClick={props.closed}>
         <i className="fa fa-close" />
         </button>
-        
-        {/*<div className={classes.Logo}>
-            <Logo />
-         </div> */}
     <nav>
         <NavigationItems />
      </nav>

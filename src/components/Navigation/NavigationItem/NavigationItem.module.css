@@ -26,10 +26,10 @@
         margin: 0;
         text-align: center;
         height: 100%;
-        border-right: 1px solid;
+        border-right: 0.8px solid;
         border-color: black;
         position: relative;
-        background-color: rgb(245, 234, 227);
+        background-color: rgb(252, 224, 133);
     }
     
     .NavigationItem:last-of-type {
@@ -37,7 +37,8 @@
     }
     
     .NavigationItem a {
-        /* color: black; */
+        color: navy;
+        font-weight: bold;
         text-decoration: none;
         height: 100%;
       /*  padding: 16px 10px; */
@@ -47,7 +48,7 @@
     .NavigationItem a:active, 
     .NavigationItem a.Active {
     height: 100%;
-    background-color: lightgray;
-    border-bottom: 4px solid;
+    background-color: white;
+    border-bottom: 2px solid;
   }     
 }

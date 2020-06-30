@@ -1,0 +1,21 @@
+.DesktopContactBar {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .DesktopContactBar {
+        font-size: 0.8vw;
+        display: grid;
+        grid-template-columns: 5fr 1fr 2fr 1fr;
+        background-color: darkred;
+        color: white;       
+    } 
+  
+   .EmailTel, .SocialMedia {
+       color: white;
+   }
+
+   .SocialMediaIcons, .CommunicationIcons {
+       margin-top: 2px;
+   }
+}

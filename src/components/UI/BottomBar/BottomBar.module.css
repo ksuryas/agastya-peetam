@@ -1,0 +1,16 @@
+.BottomBar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    background-color: #28231e;
+    color: white;
+    font-size: 0.45vw;
+}
+
+.BottomPages {
+    color: #ccc;
+    font-weight: bold; 
+    background-color: #28231e;
+    color: white;
+   font-size: 0.45vw;
+}

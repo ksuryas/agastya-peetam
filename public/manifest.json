@@ -1,9 +1,9 @@
 {
-  "short_name": "Agastya Peetam",
-  "name": "Agastya Peetam",
+  "short_name": "Shri Agastya Peetam",
+  "name": "Shri Agastya Peetam - Religious Nonprofit Organization (NGO)",
   "icons": [
     {
-      "src": "./images/omlogo.jpg",
+      "src": "/images/omlogo.jpg",
       "sizes": "192x192 64x64 32x32 24x24 16x16",
       "type": "image/jpg"
     }

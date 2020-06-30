@@ -1,8 +1,4 @@
 .ContactUs {
-    width: 50vw;
-    height: 50vh;
-}
-
-.Details, .EmailTel {
-    color: royalblue;
+    text-align: left;
+    margin-left: 1vw;
 }

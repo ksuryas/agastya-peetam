@@ -1,0 +1,38 @@
+.About {
+    display: inline-flex;
+    background-color: #ccc;
+    opacity: 0.99;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-break: keep-all;
+    color: royalblue;
+}
+
+.Filler {
+    display:block;
+    background-color: #ccc;
+    height: 50vh;
+}
+
+.AboutText {
+    width: 50%;
+    font-size: 3vw;
+}
+
+.GayathriMaa, .Ashram {
+    margin-top: 1vh;
+    width: 24.8%;
+    margin-bottom: 1vh;
+}
+
+@media (min-width: 500px) {
+    .AboutText {
+        margin-left: 1vw;
+        text-align: left;
+        font-size: 1.3vw;
+    }
+
+    .GayathriMaa, .Ashram {
+        width: 24.6%;
+    }
+}

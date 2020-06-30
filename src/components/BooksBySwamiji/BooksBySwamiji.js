@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BooksBySwamiji = () => {
+const BooksBySwamiji = (props) => {
     return (
-        <div>
+        <div className={props.className}>
             <h3>Books Written By Swamiji</h3>
             <a href="/images/altlogo.png" download="powerful-vaishnodevi">Bharatiya Dharmam</a> - Need to update href and download attributes 
 

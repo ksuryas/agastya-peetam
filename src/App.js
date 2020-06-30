@@ -8,12 +8,12 @@ class App extends Component {
     let routes = (
          <Switch>
             <Route path="/" exact component={cmp.home} />  
-            <Route path="/about-agastya-peetam/" component={cmp.about} />
             <Route path="/about-swamiji/" component={cmp.aboutSwamiji} />
-            <Route path="/books-written-by-swamiji/" component={cmp.books} />
             <Route path="/about-gayathri-maha-purashcharana/" component={cmp.gmp} />
             <Route path="/about-deergha-sathra-yagam/" component={cmp.dsy} />
             <Route path="/donate/" component={cmp.donate} />
+            <Route path="/donation-successful-page/" component={cmp.donated} />
+            <Route path="/donation-failure-page/" component={cmp.donateFailure} />
             <Route path="/contact-us/" component={cmp.contact} />
             <Route component={cmp.notFound} />
          </Switch>

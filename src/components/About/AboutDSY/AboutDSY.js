@@ -4,10 +4,11 @@ import classes from './AboutDSY.module.css';
 const AboutDSY = () => {
     return (
         <div>
-            <h3>About Deergha Sathra Yagam</h3>
-            <p className={classes.Summary}>
+            <div className={classes.Filler}>
+              <p className={classes.Summary}>
                 Coming soon! Summary under construction!
             </p>
+          </div>
         </div>
     );
 };

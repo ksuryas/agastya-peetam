@@ -8,7 +8,7 @@ import ContactBar from '../../UI/ContactBar/ContactBar';
 const toolbar = (props) => (
 <div className={classes.Toolbar}>
     <DrawerToggle clicked={props.toggleSideDrawer} />
-    <div>
+    <div className={classes.Logo}>
     <Logo />
     </div>
       

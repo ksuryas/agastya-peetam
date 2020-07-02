@@ -1,13 +1,41 @@
 import React from 'react';
 
 const BooksBySwamiji = (props) => {
+    let books = [
+        {
+            bookPath: '/resources/Bharatiya Dharmam Book.pdf',
+            imgPath: '/resources/book-covers/BharatiyaDharmamBookCover.jpg',
+            bookName: 'Bharatiya Dharmam'
+        }, 
+        {
+            bookPath: '/',
+            imgPath: '/resources/book-covers/SatyaDarshanamBookCover.jpeg',
+            bookName: 'Satya Darshanam'
+        }
+    ];
+
     return (
         <div className={props.className}>
-            <h3>Books Written By Swamiji</h3>
-            <a href="/images/altlogo.png" download="powerful-vaishnodevi">Bharatiya Dharmam</a> - Need to update href and download attributes 
+            <h4> &nbsp; Books Written By Swamiji</h4>
 
-            <h3>Books About Swamiji</h3>
-            <a href="/resources/Mahatapasvi Telugu Book.pdf" download="Mahatapasvi by Srinivas">Mahatapasvi by Srinivas</a>
+            {books.map((book, index) => (
+            <div key={index}>
+            <a href={book.bookPath} target="_blank" rel="noopener noreferrer">
+            <img src={book.imgPath} alt={book.bookName} className={props.imgClassName}  />
+                {book.bookName} 
+            </a> 
+            <br />   
+            </div>
+          ))}
+
+            <h4> &nbsp; Books About Swamiji</h4>
+            <a href="/resources/Mahatapasvi Telugu Book.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="/resources/book-covers/MahatapasviBookCover.jpg" alt="Mahatapasvi" className={props.imgClassName} />
+            Mahatapasvi by Srinivas
+            </a>
+            <br />
+            <br />
+            <p> &nbsp; Note: Click on the Book Name to enjoy reading!</p>
         </div>
     );
 };

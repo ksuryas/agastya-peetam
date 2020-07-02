@@ -9,6 +9,9 @@
     justify-content: center;
     z-index: 10;
 }
+.Logo {
+    grid-row: 1 / span 2;
+  }
 
 .DesktopOnly{
     display:grid;

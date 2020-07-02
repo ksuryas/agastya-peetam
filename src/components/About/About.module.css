@@ -1,28 +1,46 @@
 .About {
     display: inline-flex;
-    background-color: #ccc;
+    background-color: rgb(252, 247, 247);
     opacity: 0.99;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     word-break: keep-all;
-    color: royalblue;
-}
-
-.Filler {
-    display:block;
-    background-color: #ccc;
-    height: 50vh;
+    padding: 5px;
+    
 }
 
 .AboutText {
     width: 50%;
     font-size: 3vw;
 }
+.AboutText b{
+    color: darkred;
+    font-size: 1.5vw;
+}
+.AboutText::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.6;
+    
+}
 
-.GayathriMaa, .Ashram {
+.GayathriMaa, .Swamiji, .Agastya {
     margin-top: 1vh;
     width: 24.8%;
     margin-bottom: 1vh;
+}
+
+.Agastya {    
+  display: block;
+  width:18%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 500px) {
@@ -32,7 +50,7 @@
         font-size: 1.3vw;
     }
 
-    .GayathriMaa, .Ashram {
+    .GayathriMaa, .Swamiji {
         width: 24.6%;
     }
 }

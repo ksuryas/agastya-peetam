@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './ContactBar.module.css';
+import ContactUs from '../../ContactUs/ContactUs';
 
 const ContactBar = () => {
     return (
@@ -8,21 +9,21 @@ const ContactBar = () => {
 
              </p>
              
-              <p className={classes.CommunicationIcons}>
+              {/* <p className={classes.CommunicationIcons}>
                 <i className="fa fa-envelope fa-lg" /> <a
-                    href="mailto:support@agp.org"
+                    href="mailto:agastyapeetam.info@gmail.com"
                     className={classes.EmailTel}
                     target="_blank"
                     rel="noopener noreferrer">
-                    support@agp.org
+                    agastyapeetam.info@gmail.com
                 </a>
             </p>
 
             <p className={classes.CommunicationIcons}>
                 <i className="fa fa-phone fa-lg" /> <a 
-                href="tel:+919789335500" 
+                href="tel:+916303895610" 
                 className={classes.EmailTel}>
-                    +91 9789335500
+                  +91 6303895610
                 </a> | <a 
                 href="tel:+1 4026135700" 
                 className={classes.EmailTel}>
@@ -57,7 +58,10 @@ const ContactBar = () => {
                 className={classes.SocialMedia}>
                     <i className="fa fa-youtube fa-lg" />
                 </a>                
-            </p>
+            </p> */}
+
+            
+            <ContactUs addressShown={false} className={classes.DesktopSubGrid} />
         </div>
     );
 };

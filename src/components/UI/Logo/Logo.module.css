@@ -1,31 +1,8 @@
-.Logo {
-  grid-row: 1 / span 2;
-}
-
 .Logo img {
     width: 100%;
-    top:0;
-    max-height: 10vh;
+    top: 0;
+    max-height: 12vh;
     border-bottom: 3px solid darkred;
     z-index: 10;
-}
-
-@media (max-width: 500px) {
-   .Logo img {
-       width: 40%;
-       height: 28%;
-       border-bottom: none;
-   }
-}
-
-@media (max-width: 768px) {
-    .Logo img {
-        height: 9vh;
-    }
-}
-
-@media (max-width: 1024px) {
-    .Logo img {
-        height: 6.8vh;
-    }
+    box-shadow:none;
 }

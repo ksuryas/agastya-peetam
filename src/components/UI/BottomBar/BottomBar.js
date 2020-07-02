@@ -7,7 +7,7 @@ const BottomBar = () => {
         <div>
         <div className={classes.BottomBar}>
           <div></div>
-          <ContactUs />
+          <ContactUs addressShown={true} />
         </div>
 
         <div className={classes.BottomPages}>

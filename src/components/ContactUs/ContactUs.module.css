@@ -1,4 +1,17 @@
-.ContactUs {
-    text-align: left;
-    margin-left: 1vw;
-}
+ 
+    .SocialMedia, .EmailTel {
+       color: white;
+    }
+
+    .AddressBlock {
+        display: block;
+    }
+
+    .AddressNone {
+        display: none;
+    }
+
+    .ContactUs {
+        text-align: left;
+        margin-left: 1vw;
+    }

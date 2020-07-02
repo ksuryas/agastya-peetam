@@ -29,6 +29,15 @@ class Donate extends Component {
     render() {
         return (
             <div>
+            <div className="Filler">
+                <p>Coming soon! Integration and pages under construction!</p>
+            </div>
+        
+                
+                
+                
+                
+                
                 {/* <form className="form-group">
                 {error}
                 <label>Your Name <label className="Required">*</label>: </label>
@@ -62,7 +71,6 @@ class Donate extends Component {
                 
                 <button type="submit" className="btn btn-primary">Donate with Razorpay</button>
                 </form> */}
-                <p>Coming soon! Integration and pages under construction!</p>
             </div>
         );
     }

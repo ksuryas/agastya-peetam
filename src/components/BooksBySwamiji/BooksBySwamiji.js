@@ -8,15 +8,15 @@ const BooksBySwamiji = (props) => {
             bookName: 'Bharatiya Dharmam'
         }, 
         {
-            bookPath: '/',
+            // bookPath: '',
             imgPath: '/resources/book-covers/SatyaDarshanamBookCover.jpeg',
-            bookName: 'Satya Darshanam'
+            bookName: 'Satya Darshanam (releasing soon)'
         }
     ];
 
     return (
         <div className={props.className}>
-            <h4> &nbsp; Books Written By Swamiji</h4>
+            <h4>&nbsp; Books Written By Swamiji</h4>
 
             {books.map((book, index) => (
             <div key={index}>
@@ -31,11 +31,12 @@ const BooksBySwamiji = (props) => {
             <h4> &nbsp; Books About Swamiji</h4>
             <a href="/resources/Mahatapasvi Telugu Book.pdf" target="_blank" rel="noopener noreferrer">
             <img src="/resources/book-covers/MahatapasviBookCover.jpg" alt="Mahatapasvi" className={props.imgClassName} />
-            Mahatapasvi by Srinivas
+            Mahatapasvi by Srinivas Sakkaram
             </a>
+            
             <br />
             <br />
-            <p> &nbsp; Note: Click on the Book Name to enjoy reading!</p>
+            <p>&nbsp; Note: Click on the Book Name to enjoy reading!</p>
         </div>
     );
 };

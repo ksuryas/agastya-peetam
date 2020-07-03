@@ -6,7 +6,7 @@ const AboutDSY = () => {
         <div>
             <div className={classes.Filler}>
               <p className={classes.Summary}>
-                Coming soon! Summary under construction!
+                Coming soon! Page under construction!
             </p>
           </div>
         </div>

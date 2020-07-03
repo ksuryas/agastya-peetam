@@ -13,21 +13,22 @@
     width: 50%;
     font-size: 3vw;
 }
-.AboutText b{
+
+.AboutText b {
     color: darkred;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
-.AboutText::before{
+
+.AboutText::before {
     content: ' ';
     display: block;
     position: absolute;
     left: 0;
     top: 0;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     z-index: -1;
-    opacity: 0.6;
-    
+    opacity: 0.6;    
 }
 
 .GayathriMaa, .Swamiji, .Agastya {
@@ -38,7 +39,7 @@
 
 .Agastya {    
   display: block;
-  width:18%;
+  width: 12vw;
   margin-left: auto;
   margin-right: auto;
 }

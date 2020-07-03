@@ -11,7 +11,8 @@
         display: none;
     }
 
-    .ContactUs {
-        text-align: left;
-        margin-left: 1vw;
+    .Headings {
+        font-size: 1.1vw;
+        font-weight: bold;
+        color: darkorange;
     }

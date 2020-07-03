@@ -10,20 +10,25 @@ const ContactUs = (props) => {
 
     return (
         <div className={props.className}>
-        <h6 className={addressClass}>Contact Us</h6>
-          <p className={addressClass}>
-            <i className="fa fa-map-marker" /> Shri Agastya Peetam, 
+        <div className={addressClass}>
+        <p className={classes.Headings}>Contact Us</p>
+          <p>
+            <i className="fa fa-map-marker" /> Shri Agastya Peetam Trust (Regd. No 147/2019)
              <br />
-            Narasimharao Palem village, 
+            Narasimharao Palem village
             <br />
-            Veerullapadu Mandal, 
+            Veerullapadu Mandal
             <br />
-            Krishna District, 
+            Krishna District
             <br />
-            Andhra Pradesh, 521181,
+            Andhra Pradesh, 521181
             <br /> 
             India
         </p>
+        </div>
+
+        <div className={props.emailTelClassName}>
+        <p className={[classes.Headings, addressClass].join(' ')}>Email/Call</p>
 
             <p>
             <i className="fa fa-envelope" /> <a 
@@ -46,8 +51,9 @@ const ContactUs = (props) => {
                     +1 402-613-5700
                 </a>
             </p>
-            
+            </div>
            <p className={classes.SocialMediaIcons}>
+           <p className={[classes.Headings, addressClass].join(' ')}>Social Media</p>
                 <a 
                 href="https://www.facebook.com" 
                 target="_blank" 

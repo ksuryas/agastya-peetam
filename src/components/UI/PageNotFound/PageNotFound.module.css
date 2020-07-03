@@ -1,3 +1,8 @@
+.PageNotFound {
+    text-align: center;
+    height: 90vh;
+}
+
 .Title {
     color: red;
 }

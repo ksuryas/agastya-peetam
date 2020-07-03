@@ -8,60 +8,8 @@ const ContactBar = () => {
              <p>
 
              </p>
-             
-              {/* <p className={classes.CommunicationIcons}>
-                <i className="fa fa-envelope fa-lg" /> <a
-                    href="mailto:agastyapeetam.info@gmail.com"
-                    className={classes.EmailTel}
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    agastyapeetam.info@gmail.com
-                </a>
-            </p>
-
-            <p className={classes.CommunicationIcons}>
-                <i className="fa fa-phone fa-lg" /> <a 
-                href="tel:+916303895610" 
-                className={classes.EmailTel}>
-                  +91 6303895610
-                </a> | <a 
-                href="tel:+1 4026135700" 
-                className={classes.EmailTel}>
-                    +1 402-613-5700
-                </a>
-            </p>
-
-            <p className={classes.SocialMediaIcons}>
-                <a 
-                href="https://www.facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className={classes.SocialMedia}>
-                    <i className="fa fa-facebook-official fa-lg" />
-                </a>
-
-            <span>&nbsp; &nbsp;</span>
-                <a 
-                href="https://www.twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className={classes.SocialMedia}>
-                    <i className="fa fa-twitter fa-lg" />
-                </a>          
-
-                
-            <span>&nbsp; &nbsp;</span>
-                <a 
-                href="https://www.youtube.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className={classes.SocialMedia}>
-                    <i className="fa fa-youtube fa-lg" />
-                </a>                
-            </p> */}
-
-            
-            <ContactUs addressShown={false} className={classes.DesktopSubGrid} />
+                         
+            <ContactUs addressShown={false} className={classes.DesktopSubGrid} emailTelClassName={classes.EmailTel} />
         </div>
     );
 };

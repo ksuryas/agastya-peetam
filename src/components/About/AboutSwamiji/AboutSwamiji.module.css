@@ -1,10 +1,10 @@
 .TextContainer {
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-gap: 5px;
+    grid-template-columns: 3.6fr 1.4fr;
+    grid-gap: 5vw;
     padding-top: 10px;
+    padding-left: 5vw;
     background-color: rgb(252, 247, 247);
-
 }
 
 .AboutSwamiji {
@@ -31,17 +31,26 @@
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     width: 25%;
-    max-height: 35vh;
+}
+
+.SwamijiArticle:nth-child(2) {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .SwamijiArticle:nth-child(1) .Image:nth-child(1) {
-    width: 30%;
-    height: 20vh;
+    width: 15vw;
+    height: 28vh;
 }
 
-.Image:nth-child(2) {
-    width: 40%;
-    height: 50vh;
+.SwamijiArticle:nth-child(2) .Image:nth-child(2) {
+    width: 20vw;
+    height: 58vh;
+}
+
+.SwamijiArticle:nth-child(3) .Image:nth-child(1) {
+    width: 25vw;
+    height: 43vh;
 }
 
 .BookCover {
@@ -53,18 +62,19 @@
     opacity: 0.99;
 }
 
-.BooksBySwamiji h4{
+.BooksBySwamiji h4 {
     color: darkred;
     font-weight: bold;
 }
 
-.BooksBySwamiji a{
+.BooksBySwamiji a {
     color: black;
     font-weight: lighter;
 }
 
-.BooksBySwamiji p{
-    color: black;
+.BooksBySwamiji p {
+    color: darkblue;
     font-weight: lighter;
+    font-style: italic;
     font-size: 1.2vw;
 }

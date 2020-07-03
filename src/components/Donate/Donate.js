@@ -30,7 +30,7 @@ class Donate extends Component {
         return (
             <div>
             <div className="Filler">
-                <p>Coming soon! Integration and pages under construction!</p>
+                <p>Coming soon! Page under construction!</p>
             </div>
         
                 

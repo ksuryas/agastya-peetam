@@ -1,8 +1,10 @@
 .Logo img {
-    width: 100%;
-    top: 0;
-    max-height: 12vh;
-    border-bottom: 3px solid darkred;
+    width: 9vw;
+    height: 18vh;
     z-index: 10;
-    box-shadow:none;
+    box-shadow: none;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 3vw;
+    margin-bottom: 0.5vh;
 }

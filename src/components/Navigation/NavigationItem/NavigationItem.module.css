@@ -21,19 +21,20 @@
         text-align: center;
         height: 6vh;
         border-right: 0.8px solid;
-        border-color: black;
+        border-color: rgb(82,1,1);
         position: relative;
-        background-color:rgb(153, 3, 3);
+        background-color: rgb(153,3,3);
     }
     
-    .NavigationItem:last-of-type {
+    .NavigationItem:first-of-type, .NavigationItem:last-of-type {
         border-right: none;
     }
     
     .NavigationItem a {
         color: white;
         font-family: "Open Sans", sans-serif;
-        font-size: 1.1vw;
+        font-size: 1.25vw;
+        font-weight: bold;
         text-decoration: none;
         height: 100%;
     }

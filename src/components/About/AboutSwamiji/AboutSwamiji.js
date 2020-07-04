@@ -38,7 +38,7 @@ const AboutSwamiji = () => {
             </div>
 
             <div className={classes.SwamijiArticle}>
-              <img src="/images/Himalayas.jpg" alt="Himalayas" className={classes.Image} />
+              <img src="/images/Beautiful Himalayas.jpeg" alt="Beautiful Himalayas" className={classes.Image} />
              
               <span>&nbsp;&nbsp;</span>
             Then, he went back to Himalayas to seek Mata Renuka Devi's help in understanding his Guruji's order 

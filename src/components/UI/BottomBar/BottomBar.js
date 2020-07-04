@@ -5,9 +5,12 @@ import ContactUs from '../../ContactUs/ContactUs';
 const BottomBar = () => {
     return (
         <div className={classes.BottomBar}>
+          
+
+          <ContactUs addressShown={true} className={classes.BottomBarSubGrid} />
           <div>
-              <p className={classes.Headings}>Other Links</p>
-              
+              <span className={classes.Headings}>Other Links</span>
+              <br />
               <p>
                 <a href>Terms and Conditions</a>
                 <br />
@@ -16,12 +19,9 @@ const BottomBar = () => {
                 <a href>Refund Policy</a>
               </p>
           </div>
-
-          <ContactUs addressShown={true} className={classes.BottomBarSubGrid} />
-          
           <div className={classes.BottomPages}>
-            <p className={classes.Headings}>About the Developer</p>
-
+            <span className={classes.Headings}>Website Developer</span>
+            <br />
             Name : Surya Kasibhatla
             <br />
             Age  : 12 years 

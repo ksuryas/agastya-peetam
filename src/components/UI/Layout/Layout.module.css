@@ -16,7 +16,7 @@ img {
 
 .Layout {
   display: grid;
-  grid-template-rows: 12vh auto auto;
+  grid-template-rows: 20vh auto auto;
 }
 
 .MainContent {

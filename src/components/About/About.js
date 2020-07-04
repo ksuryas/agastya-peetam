@@ -6,11 +6,12 @@ const About = () => {
     return (
           <div>
             <div className={classes.About}>
-                <img src="/images/Veda Gayathri Mata.jpg" alt="Gayathri Maa" className={classes.GayathriMaa} />
+                <img src="/images/Veda Gayathri Mata.jpg" alt="Gayathri Maa" title="Gayathri Mata" className={classes.GayathriMaa} />
                 
                 <p className={classes.AboutText}>
-                <img src="/images/Agastya 1.jpg" alt="Agastya Maha Muni" className={classes.Agastya} />
-                   
+                <a href="https://en.wikipedia.org/wiki/Agastya" target="_blank" rel="noopener noreferrer" >
+                  <img src="/images/Agastya.jpg" alt="Agastya Maha Muni" title="Agastya Maha Muni" className={classes.Agastya} />
+                </a>   
                    
                     <b>The Divine Beginning</b>
 
@@ -38,7 +39,7 @@ const About = () => {
                    
                 </p>
 
-                <img src="/images/AboutUs Right.jpeg" alt="Swamiji" className={classes.Swamiji} />
+                <img src="/images/AboutUs Right.jpeg" alt="Swamiji" title="Shri Swami Sugunananda Gayathri" className={classes.Swamiji} />
             </div>
             
             {/* <EventsAndGallery /> */}

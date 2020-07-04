@@ -11,8 +11,9 @@ const ContactUs = (props) => {
     return (
         <div className={props.className}>
         <div className={addressClass}>
-        <p className={classes.Headings}>Contact Us</p>
-          <p>
+        <span className={classes.Headings}>Contact Us</span>
+        <br />
+          
             <i className="fa fa-map-marker" /> Shri Agastya Peetam Trust (Regd. No 147/2019)
              <br />
             Narasimharao Palem village
@@ -21,39 +22,45 @@ const ContactUs = (props) => {
             <br />
             Krishna District
             <br />
-            Andhra Pradesh, 521181
-            <br /> 
-            India
-        </p>
+            Andhra Pradesh - 521181, India
+        
         </div>
 
         <div className={props.emailTelClassName}>
-        <p className={[classes.Headings, addressClass].join(' ')}>Email/Call</p>
-
-            <p>
+        <span className={[classes.Headings, addressClass].join(' ')}>Email/Call</span>
+          <span>
             <i className="fa fa-envelope" /> <a 
             href="mailto:agastyapeetam.info@gmail.com"
-            className={classes.EmailTel} 
+            className={classes.Email} 
             target="_blank" 
             rel="noopener noreferrer">
             agastyapeetam.info@gmail.com
             </a>
-            </p>
+            </span>
             
             <p className={classes.CommunicationIcons}>
-                <i className="fa fa-phone fa-lg" /> <a 
+                <i className="fa fa-phone fa-lg" /> India: <a 
                 href="tel:+916303895610" 
                 className={classes.EmailTel}>
                   +91 6303895610
-                </a> | <a 
-                href="tel:+1 4026135700" 
+                </a> | 
+                <a 
+                href="tel:+916281872869" 
+                className={classes.EmailTel}>
+                    +91 6281872869
+                </a>
+                    <br />
+                    
+                <i className="fa fa-phone fa-lg" /> USA: <a 
+                href="tel:+14026135700" 
                 className={classes.EmailTel}>
                     +1 402-613-5700
                 </a>
             </p>
             </div>
            <p className={classes.SocialMediaIcons}>
-           <p className={[classes.Headings, addressClass].join(' ')}>Social Media</p>
+           <span className={[classes.Headings, addressClass].join(' ')}>Social Media</span>
+             
                 <a 
                 href="https://www.facebook.com" 
                 target="_blank" 
@@ -79,7 +86,8 @@ const ContactUs = (props) => {
                 rel="noopener noreferrer" 
                 className={classes.SocialMedia}>
                     <i className="fa fa-youtube fa-lg" />
-                </a>                
+                </a>    
+                            
             </p>
         </div>
     );

@@ -6,6 +6,11 @@
     padding: 1.5vw; 
 } 
 
+.fullJustify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .AboutGMP {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

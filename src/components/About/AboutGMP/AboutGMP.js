@@ -12,7 +12,7 @@ const AboutGMP = () => {
             src="/images/GMP Ammavaru.jpeg" 
             alt="Swami ji doing puja" 
             className={classes.Image} />
-
+            <div classes={classes.fullJustify}>
             Gayathri Maha Purascharana requires Gayathri Japam to be done 6850 times every day or 24 Lakh times 
             each year for 24 years. This maha yagna requires Akhanda Deepa, Akhanda Dhuni, Nitya 
             Agnihotra and Akhanda Brahmacharya. The sadhaka also must be on Eka Vastra (single cloth) and
@@ -25,6 +25,7 @@ const AboutGMP = () => {
             Then, on full moon day, the rice collected thus must be cooked and 1/4th part each of the rice 
             must be offered to Gayathri Mata as Naivedyam, Akhanda Dhuni, Nitya Agnihotra and remaining 1/4th 
             only must be offered to Swamiji as a meal.
+            </div>
             </div>
             </div>
 

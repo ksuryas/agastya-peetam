@@ -1,6 +1,7 @@
 import React from 'react';
+import classes from './BooksBySwamiji.module.css';
 
-const BooksBySwamiji = (props) => {
+const BooksBySwamiji = () => {
     let books = [
         {
             bookPath: '/resources/Bharatiya Dharmam Book.pdf',
@@ -15,25 +16,25 @@ const BooksBySwamiji = (props) => {
     ];
 
     return (
-        <div className={props.className}>
-            <h4>&nbsp; Books Written By Swamiji</h4>
+        <div className={classes.BooksBySwamiji}>
+            <h4>&nbsp; Books By Swamiji</h4>
 
             {books.map((book, index) => (
-            <div key={index}>
-            <a href={book.bookPath} target="_blank" rel="noopener noreferrer">
-            <img src={book.imgPath} alt={book.bookName} className={props.imgClassName}  />
-                {book.bookName} 
-            </a> 
-            <br />   
+            <div key={index} >
+                <a href={book.bookPath} target="_blank" rel="noopener noreferrer" className={classes.Book}>
+                <img src={book.imgPath} alt={book.bookName} className={classes.BookCover}  />
+                    <div>{book.bookName}</div> 
+                </a>  
             </div>
           ))}
 
             <h4> &nbsp; Books About Swamiji</h4>
-            <a href="/resources/Mahatapasvi Telugu Book.pdf" target="_blank" rel="noopener noreferrer">
-            <img src="/resources/book-covers/MahatapasviBookCover.jpg" alt="Mahatapasvi" className={props.imgClassName} />
-            Mahatapasvi by Srinivas Sakkaram
-            </a>
-            
+            <div>
+                <a href="/resources/Mahatapasvi Telugu Book.pdf" target="_blank" rel="noopener noreferrer" className={classes.Book}>
+                <img src="/resources/book-covers/MahatapasviBookCover.jpg" alt="Mahatapasvi" className={classes.BookCover} />
+                <div>Mahatapasvi by Srinivas Sakkaram</div>
+                </a>
+            </div>
             <br />
             <br />
             <p>&nbsp; Note: Click on the Book Name to enjoy reading!</p>

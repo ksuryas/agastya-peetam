@@ -1,0 +1,14 @@
+.PrivacyPolicy {
+    height: 280vh;
+}
+
+.PrivacyPolicyHeading {
+    font-weight: bold;
+    color: darkred;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.PrivacyPolicyStatement {
+    margin-left: 10vw;
+}

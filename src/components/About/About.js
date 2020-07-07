@@ -28,10 +28,14 @@ const About = () => {
                     
                     Our mission is to bring Loka Shanthi and Kalyanam (universal peace and prosperity)
                     by doing Gayathri Maha Purashcharana and Deergha Sathra Yagam. 
+
                     <br />
                     <br />                    
+                    
                     <b>The Sacred Rituals</b>
+                    
                     <br />
+                    
                     Gayathri Maha Purascharana is a 24 year long ritual done under strict vedic rules by a Sadhaka following strict
                     <i> Brahmacharya</i>. Deergha Sathra Yagam is a 12 year long ritual.
                     Each of these rituals require complete dedication and devotion.                             

@@ -11,6 +11,8 @@ class App extends Component {
             <Route path="/about-swamiji/" component={cmp.aboutSwamiji} />
             <Route path="/about-gayathri-maha-purashcharana/" component={cmp.gmp} />
             <Route path="/about-deergha-sathra-yagam/" component={cmp.dsy} />
+            <Route path="/our-privacy-policy/" component={cmp.privacyPolicy} />
+            <Route path="/our-terms-and-conditions/" component={cmp.tsAndCs} />
             <Route path="/donate/" component={cmp.donate} />
             <Route path="/donation-successful-page/" component={cmp.donated} />
             <Route path="/donation-failure-page/" component={cmp.donateFailure} />

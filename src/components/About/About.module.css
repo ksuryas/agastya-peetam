@@ -5,35 +5,22 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     word-break: keep-all;
-    padding: 5px;
+    padding: 1vw;
     
 }
 
 .AboutText {
     width: 50%;
-    font-size: 3vw;
+    margin-left: 1vw;
 }
 
 .AboutText b {
     color: darkred;
-    font-size: 1.3vw;
 }
 
-.AboutText::before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.6;    
-}
-
-.GayathriMaa, .Swamiji, .Agastya {
-    margin-top: 1vh;
-    width: 24.8%;
+.GayathriMaa, .Swamiji {
+    max-width: 22vw;
+    max-height: 80vh; 
     margin-left: 1vw;
     margin-bottom: 1vh;
 }
@@ -43,16 +30,13 @@
   width: 12vw;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1vh;
 }
 
-@media (min-width: 500px) {
-    .AboutText {
-        margin-left: 1vw;
-        text-align: left;
-        font-size: 1.3vw;
-    }
 
+
+ @media only screen and (max-width: 499px) {
     .GayathriMaa, .Swamiji {
-        width: 24.6%;
-    }
-}
+        height: 20vh;
+    }   
+  }

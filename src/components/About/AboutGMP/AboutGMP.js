@@ -12,7 +12,7 @@ const AboutGMP = () => {
             src="/images/GMP Ammavaru.jpeg" 
             alt="Swami ji doing puja" 
             className={classes.Image} />
-            <div classes={classes.fullJustify}>
+            <div>
             Gayathri Maha Purascharana requires Gayathri Japam to be done 6850 times every day or 24 Lakh times 
             each year for 24 years. This maha yagna requires Akhanda Deepa, Akhanda Dhuni, Nitya 
             Agnihotra and Akhanda Brahmacharya. The sadhaka also must be on Eka Vastra (single cloth) and
@@ -33,13 +33,15 @@ const AboutGMP = () => {
             <h4>Where is it happening and how did it start?</h4>
             <div className={classes.TextAround}>
               <img src="/images/GMP Yagam.jpeg" 
-                  alt="Swami ji doing puja" 
+                  alt="Swamiji doing Gayathri Maha Purascharana" 
                   className={classes.Image} />
-            Swamiji lives in a serene Ashram in the jungles around Narasimharao Palem village of 
+            <div>Swamiji lives in a serene Ashram in the jungles around Narasimha Rao Palem of 
             Veerullapadu mandal in Krishna District. This is situated exactly 50km away from 
-            Kanakadurga temple of Vijayawada. Swamiji started this Maha Yagna on January 22nd, 2018 
-            on the auspicious day of 
-            <div className={classes.WideText}> Vasanta Panchami. On that day, Akhanda Dhuni was brought from Sai Baba temple set up by 
+            Kanaka Durga temple of Vijayawada. 
+            </div>
+            
+            <div className={classes.WideText}> Swamiji started this Maha Yagna on January 22nd, 2018 
+            on the auspicious day of Vasanta Panchami.  On that day, Akhanda Dhuni was brought from Sai Baba temple set up by 
             Ekkiralla Bharadwaja Master. This Dhuni was given to Master by Sai Baba himself. 
             The dhuni at the Agastya Ashram was started by Avadhuta Polaiah Swamiji. The Akhanda 
             Deepa was lighted by Mata Preeti (Veda Mata). Mata Gayathri idol Pratishthapan was also 
@@ -71,6 +73,7 @@ const AboutGMP = () => {
 
             <div className={classes.GridText}>
             <img src="/images/Panchabhootalu.jpg" alt="Pancha Bhoota" className={classes.Image} />
+          
           <div>
            Gayathri Mantra's root is the Sanskrit word Gayi. This means Prana (life). Gayathri Mantra is 
            prana swarupa mantra and has 24 letters which represent the 24 tattvas (Principles) of the Pancha Bhoota 

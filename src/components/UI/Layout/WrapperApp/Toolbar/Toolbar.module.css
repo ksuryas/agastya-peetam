@@ -1,0 +1,46 @@
+.Toolbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: 0.8fr 5fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.DesktopOnly {
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    grid-row: 1 / span 2;
+}
+
+.MobileOnly {
+    display: none;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;    
+    }
+    
+    .Toolbar {
+        background-color: rgb(82, 1, 1);
+        color: white;
+        grid-template-columns: 13vw 20vw 60vw;
+        grid-template-rows: auto;
+        grid-gap: 1vw;
+    }
+
+    .MobileOnly {
+        display: grid;
+        grid-column: auto;
+        text-align: center;
+    }
+
+    .Peetam {
+        font-size: 6vw;
+    }
+}

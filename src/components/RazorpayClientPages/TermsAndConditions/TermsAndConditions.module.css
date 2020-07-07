@@ -1,0 +1,14 @@
+.TermsAndConditions {
+    height: 280vh;
+}
+
+.TermsAndConditionsHeading {
+    font-weight: bold;
+    color: darkred;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.TermsAndConditionsContent {
+    margin-left: 10vw;
+}

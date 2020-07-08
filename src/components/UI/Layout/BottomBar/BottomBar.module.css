@@ -42,15 +42,9 @@
     .BottomBar {
         display: grid;
         grid-template-columns: auto;
-        font-size: 2.5vw;
+        font-size: 2vw;
         grid-gap: 1vh;
     }
-    /* .BottomBarSubGrid1{
-        grid-row:2;
-    }
-    .BottomBarSubGrid2 {
-        grid-row:1;
-    } */
 
     .CopyRight {
         grid-column: 1;

@@ -1,6 +1,7 @@
 const contactDetails = {
         addressLines: [
-            "Shri Agastya Peetam Trust (Regd. No 147/2019)",
+            "Shri Agastya Peetam Trust", 
+            "Regd.No 147/2019",
             "Narasimharao Palem village",
             "Veerullapadu Mandal",
             "Krishna District",

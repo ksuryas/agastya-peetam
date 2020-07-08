@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     display: grid;
-    grid-template-columns: 0.8fr 5fr;
+    grid-template-columns: 0vw 100vw;
     grid-template-rows: auto auto;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
 .DesktopOnly {
     display: grid;
     position: absolute;
-    grid-template-columns: auto;
+    grid-template-columns: 100vw;
     grid-row: 1 / span 2;
 }
 
@@ -29,7 +29,7 @@
     .Toolbar {
         background-color: rgb(82, 1, 1);
         color: white;
-        grid-template-columns: 13vw 20vw 60vw;
+        grid-template-columns: 13vw 20vw 65vw;
         grid-template-rows: auto;
         grid-gap: 1vw;
     }

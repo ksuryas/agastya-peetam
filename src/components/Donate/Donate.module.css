@@ -1,12 +1,16 @@
 .Donation {
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto auto;
     margin-left: 30vw;
     margin-right: 30vw;
-    grid-column-gap: 3vw;
+    grid-column-gap: 3vw; */
+    text-align: center;
+    color: royalblue;
+    height: 90vh;
+    background-color: #ccc;
 }
 
-label {
+/* label {
     margin-bottom: 1px;
 }
 
@@ -19,6 +23,16 @@ label {
     color: red;
 }
 
-.BootstrapFont {
+.BootstrapFont, .ClearButton {
+    border: none;
+    border-radius: 15%;
+    background-color: darkgreen;
     font-size: 1.25vw;
+    margin-right: 1vw;
+    color: white;
 }
+
+.ClearButton {
+    background-color: red; - need to change
+    color: black;
+} */

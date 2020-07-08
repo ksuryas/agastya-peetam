@@ -1,15 +1,15 @@
 import asyncComponent from '../hoc/asyncComponent/asyncComponent';
 
-const asyncAboutAGPPage = asyncComponent(() => import('../components/About/About'));
-const asyncAboutSwamijiPage = asyncComponent(() => import('../components/About/AboutSwamiji/AboutSwamiji')); 
-const asyncAboutGMPPage = asyncComponent(() => import('../components/About/AboutGMP/AboutGMP'));
-const asyncAboutDSYPage = asyncComponent(() => import('../components/About/AboutDSY/AboutDSY'));
-const asyncPrivPolicyPage = asyncComponent(() => import('../components/RazorpayClientPages/PrivacyPolicy/PrivacyPolicy'));
-const asyncTsAndCsPage = asyncComponent(() => import('../components/RazorpayClientPages/TermsAndConditions/TermsAndConditions'));
-const asyncDonatePage = asyncComponent(() => import('../components/Donate/Donate'));
-const asyncDonatedPage = asyncComponent(() => import('../components/Donate/DonationSuccessful/DonationSuccessful'));
-const asyncDonateFailurePage = asyncComponent(() => import('../components/Donate/DonationFailure/DonationFailure'));
-const async404Page = asyncComponent(() => import('../components/UI/PageNotFound/PageNotFound'));
+const asyncAboutAGPPage = asyncComponent(() => import ('../components/Content/About/About'));
+const asyncAboutSwamijiPage = asyncComponent(() => import ('../components/Content/About/AboutSwamiji/AboutSwamiji'));
+const asyncAboutGMPPage = asyncComponent(() => import ('../components/Content/About/AboutGMP/AboutGMP'));
+const asyncAboutDSYPage = asyncComponent(() => import ('../components/Content/About/AboutDSY/AboutDSY'));
+const asyncPrivPolicyPage = asyncComponent(() => import ('../components/Content/RazorpayClientPages/PrivacyPolicy/PrivacyPolicy'));
+const asyncTsAndCsPage = asyncComponent(() => import ('../components/Content/RazorpayClientPages/TermsAndConditions/TermsAndConditions'));
+const asyncDonatePage = asyncComponent(() => import ('../components/Content/Donate/Donate'));
+const asyncDonatedPage = asyncComponent(() => import ('../components/Content/Donate/DonationSuccessful/DonationSuccessful'));
+const asyncDonateFailurePage = asyncComponent(() => import ('../components/Content/Donate/DonationFailure/DonationFailure'));
+const async404Page = asyncComponent(() => import ('../components/UI/PageNotFound/PageNotFound'));
 
 const cmp = {
     home: asyncAboutAGPPage,

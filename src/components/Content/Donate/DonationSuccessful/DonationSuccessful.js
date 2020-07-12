@@ -6,6 +6,8 @@ const DonationSuccessful = () => {
         <div className="alert alert-success">
            <h3>Donation is Successful!</h3> 
            <p className={classes.DonationValuedText}>Your donation is greatly appreciated and valued!</p>   
+
+           {/* Show option for Receipt PDF */}
         </div>
     );
 };

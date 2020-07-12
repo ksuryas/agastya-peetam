@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "agastya-peetam",
-    "UAT": "agastya-peetam"
+    "UAT": "agastya-peetam",
+    "production": "shri-agastya-peetam-india"
   }
 }

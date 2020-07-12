@@ -6,7 +6,6 @@
     -moz-osx-font-smoothing: grayscale;
     word-break: keep-all;
     padding: 1vw;
-    
 }
 
 .AboutText {
@@ -33,10 +32,8 @@
   margin-bottom: 1vh;
 }
 
-
-
- @media only screen and (max-width: 499px) {
+@media only screen and (max-width: 499px) {
     .GayathriMaa, .Swamiji {
         height: 20vh;
     }   
-  }
+}

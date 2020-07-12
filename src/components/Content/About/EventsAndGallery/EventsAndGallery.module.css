@@ -3,3 +3,7 @@
     background-color: rgb(252, 247, 247);
     height: 50vh;
 }
+
+.EventsAndGallery b {
+    cursor: auto;
+}

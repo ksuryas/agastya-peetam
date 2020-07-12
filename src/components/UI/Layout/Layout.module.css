@@ -9,6 +9,7 @@ body {
 
 h4 {
   font-size: 1.25vw;
+  font-weight: bold;
 }
 
 img {
@@ -35,6 +36,6 @@ img {
   }
 
   h4 {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 }

@@ -1,38 +1,114 @@
-.Donation {
-    /* display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    grid-column-gap: 3vw; */
+.DonateContainer {
+    display: block; /* just to be safe */
     text-align: center;
-    color: royalblue;
-    height: 90vh;
-    background-color: #ccc;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    /* background-color: #ccc;
+    color: royalblue; */
 }
 
-/* label {
-    margin-bottom: 1px;
+.Quotation {
+    font-style: italic;
 }
 
-.Donation input {
-    width: 100%;
-    margin-bottom: 2vw;
+.Donation {
+    display: grid;
+    grid-template-columns: 55vw 28vw;
+    text-align: center;
+    grid-column-gap: 5vw;
+    margin-top: 2vh;
+}
+
+.Donation h4 {
+    font-weight: bold;
+}
+
+.DonationInfo {
+    background-color: rebeccapurple;
+    height: 78vh;
+    margin-left: 5vw;
+}
+
+.Paragraphs {
+    color: white;
+}
+
+.PaymentSection {
+    background-color: lightblue;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 78vh;
+}
+
+.Field label {
+    margin-bottom: -1vh;
 }
 
 .Required {
     color: red;
 }
 
-.BootstrapFont, .ClearButton {
-    border: none;
-    border-radius: 15%;
-    background-color: darkgreen;
-    font-size: 1.25vw;
-    margin-right: 1vw;
+.Field input, .Field textarea {
+    width: 100%;
+    margin-bottom: 1vw;
+    cursor: text;
+}
+
+.ErrorMsg {
+    font-size: 1vw;
+    text-align: left;
+    margin-top: -2vh;
+}
+
+.DonateFormButton {
+    background-color: darkgreen; /* - need to change - try royalblue */
     color: white;
 }
 
-.ClearButton {
-    background-color: red; - need to change
+.ClearFormButton {
+    background-color: red; /* - need to change */
     color: black;
-} */
+}
+
+button:hover {
+    background-color: gray; /* - need to change */
+    color: black;
+}
+
+.ThankYouMessage {
+    margin-top: 1.5vh;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+@media (max-width: 499px) {
+    .Donation {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0.5vh;
+    }
+
+    .DonationInfo {
+        height: 53vh;
+        margin-right: 2vw; 
+        margin-left: 2vw;
+        grid-row: 2;
+    }
+
+    .PaymentSection {
+        height: 50vh;
+    }
+
+    .Field input, .Field textarea {
+        margin-bottom: 1.5vw;
+    }    
+
+    .ErrorMsg {
+        margin-top: -0.5vh;
+        font-size: 3vw;
+    }
+
+    .ThankYouMessage {
+        font-size: 3vw;
+    }
+}

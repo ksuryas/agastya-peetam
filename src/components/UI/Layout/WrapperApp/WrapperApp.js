@@ -16,7 +16,7 @@ const WrapperApp = () => {
     return (
         <div>
             <Toolbar toggleSideDrawer={sideDrawerToggleHandler} />
-            <SideDrawer open={showSideDrawer} closed={sideDrawerClosedHandler} />
+            <SideDrawer open={showSideDrawer} closed={sideDrawerClosedHandler} showCloseIcon={false} />
          </div>
     );
 };

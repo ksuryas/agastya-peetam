@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
                 <i>Will have to check with dad*.</i>    
                 <br />
 
-                <b>If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at <a href="mailto:agastyapeetam.info@gmail.com" target="_blank" rel="noopener noreferrer">agastyapeetam.info@gmail.com</a> or mailing us at: Shri Agastya Peetam Trust (Regd. No 147/2019),
+                <b>If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at <a href="mailto:agastyapeetam.info@gmail.com" target="_blank" rel="noopener noreferrer">agastyapeetam.info@gmail.com</a> or mailing us at: Sree Agastya Peetam Trust (Regd. No 147/2019),
                     Narasimharao Palem village,
                     Veerullapadu Mandal,
                     Krishna District,
@@ -141,7 +141,7 @@ const PrivacyPolicy = () => {
             <i>Will have to check with dad*.</i>
             <br />
 
-            If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at <a href="mailto:agastyapeetam.info@gmail.com" target="_blank" rel="noopener noreferrer">agastyapeetam.info@gmail.com</a> or by mail at Shri Agastya Peetam Trust (Regd. No 147/2019),
+            If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at <a href="mailto:agastyapeetam.info@gmail.com" target="_blank" rel="noopener noreferrer">agastyapeetam.info@gmail.com</a> or by mail at Sree Agastya Peetam Trust (Regd. No 147/2019),
             Narasimharao Palem village,
             Veerullapadu Mandal,
             Krishna District,

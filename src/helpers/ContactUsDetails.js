@@ -1,6 +1,6 @@
 const contactDetails = {
         addressLines: [
-            "Shri Agastya Peetam Trust", 
+            "Sree Agastya Peetam Trust", 
             "Regd.No 147/2019",
             "Narasimharao Palem village",
             "Veerullapadu Mandal",

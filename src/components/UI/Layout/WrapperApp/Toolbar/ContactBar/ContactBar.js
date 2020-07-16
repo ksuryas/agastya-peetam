@@ -7,7 +7,7 @@ const ContactBar = () => {
         <div className={classes.DesktopContactBar}>
             <p></p>
             <p className={classes.AlignVertical}>:|| Jai Gurudev ||:</p>
-            <p className={[classes.Peetam, classes.AlignVertical].join(' ')}>Shri Agastya Peetam </p>                      
+            <p className={[classes.Peetam, classes.AlignVertical].join(' ')}>Sree Agastya Peetham</p>                      
             <ContactUs addressShown={false} className={[classes.DesktopSubGrid, classes.AlignVertical].join(' ')} emailTelClassName={classes.EmailTel} />
         </div>
     );

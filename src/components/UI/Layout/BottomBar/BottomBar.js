@@ -39,7 +39,7 @@ const BottomBar = () => {
           </div>
 
           <div className={classes.CopyRight}>
-            Copyright © 2020, &nbsp;&nbsp;Shri Agastya Peetam Trust of Narasimharao Palem,&nbsp;&nbsp;All Rights Reserved.
+            Copyright © 2020, &nbsp;&nbsp;Sree Agastya Peetam Trust of Narasimharao Palem,&nbsp;&nbsp;All Rights Reserved.
           </div>
           
         </div>

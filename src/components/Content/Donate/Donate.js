@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classes from './Donate.module.css';
-import commonClasses from '../../../helpers/commonClasses.module.css';
-import ButtonCmp from '../../../helpers/ButtonCmp';
+// import commonClasses from '../../../helpers/commonClasses.module.css';
+// import ButtonCmp from '../../../helpers/ButtonCmp';
 import axios from 'axios';
 
 class Donate extends Component {
@@ -132,7 +132,7 @@ class Donate extends Component {
             const { data } = response;
             const options = {
               key: 'rzp_test_jQcrgh26VUXP6E',
-              name: "Shri Agastya Peetam",
+              name: "Sree Agastya Peetam",
               description: "A Religious NGO",
               image: "/images/logo-circle.png",
               order_id: data.id,
@@ -164,11 +164,12 @@ class Donate extends Component {
     render() {
         return (
            <div className={classes.DonateContainer}>
-            <h4>Donate to Us for a Noble Cause!</h4>
+            {/* <h4>Donate to Us for a Noble Cause!</h4>
             <q className={classes.Quotation}>You have two hands. One to help yourself, the second to help others.</q>
+            <br /> */}
             {/* <p>- http://rishikajain.com/2012/05/08/helping-quote/</p> */}
 
-           <div className={classes.Donation}>
+           {/* <div className={classes.Donation}>
                 <div className={classes.DonationInfo}>
                     <p className={commonClasses.Headings}>Why should you donate?</p>
                     <p className={classes.Paragraphs}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum a arcu cursus vitae congue mauris. Facilisi etiam dignissim diam quis enim lobortis. Pellentesque sit amet porttitor eget dolor. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Vitae tortor condimentum lacinia quis. Eget dolor morbi non arcu risus. In hac habitasse platea dictumst vestibulum rhoncus est. Aliquam ut porttitor leo a diam sollicitudin tempor id. In pellentesque massa placerat duis ultricies lacus.
@@ -235,9 +236,13 @@ class Donate extends Component {
 
                     <p className={classes.ThankYouMessage}>Thank you for donating! Every rupee counts! Loka Samasta Sukhinobhavantu!</p>           
               </form>
-          </div>
+          </div> */}
 
           {/* <p>Coming soon! Page under construction!</p> */}
+
+          <div className={classes.FrameWrapper}>
+            <iframe src="https://rzp.io/l/xaBAlgi/" title="Donation" className={classes.DonateRazorpay}></iframe>
+          </div>
           </div>
        );
     }

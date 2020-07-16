@@ -5,6 +5,7 @@ import commonClasses from '../../../../helpers/commonClasses.module.css';
 
 const ContactUs = (props) => {
     let addressClass = classes.AddressBlock;
+    let addressMaps = "https://www.google.com/maps/place/Sree+Agastya+Peetham+Ashramam/@16.8198969,80.3958638,17z/data=!3m1!4b1!4m5!3m4!1s0x3a35b9f8de12ddc3:0xca5d52a272276b50!8m2!3d16.8198969!4d80.3980578?hl=en-US";
 
     if(!props.addressShown) {
         addressClass = classes.AddressNone;
@@ -16,7 +17,8 @@ const ContactUs = (props) => {
                 <span className={commonClasses.Headings}>Contact Us</span>
                 <br />
           
-                <i className="fa fa-map-marker" /> {
+                <a href={addressMaps} target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-map-marker" /></a> {
                     contactDetails.addressLines.map(
                         (addressLine, index) => {
                             return <span key={index}>{addressLine} <br /> </span>;
@@ -61,23 +63,22 @@ const ContactUs = (props) => {
                 <span className={[commonClasses.Headings, addressClass].join(' ')}>Social Media</span>
              
                 <a 
-                href="https://www.facebook.com" 
+                href="https://www.facebook.com/agastya.peetam.3" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className={classes.SocialMedia}>
                     <i className="fa fa-facebook-official fa-lg" />
                 </a>
 
-                <span>&nbsp; &nbsp;</span>
+            {/* <span>&nbsp; &nbsp;</span>
                 <a 
                 href="https://www.twitter.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className={classes.SocialMedia}>
                     <i className="fa fa-twitter fa-lg" />
-                </a>          
+                </a> */}
 
-                
                 <span>&nbsp; &nbsp;</span>
                 <a 
                 href="https://www.youtube.com" 

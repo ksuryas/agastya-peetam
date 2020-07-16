@@ -13,9 +13,9 @@ class App extends Component {
             <Route path="/about-deergha-sathra-yagam/" component={cmp.dsy} />
             <Route path="/our-privacy-policy/" component={cmp.privacyPolicy} />
             <Route path="/our-terms-and-conditions/" component={cmp.tsAndCs} />
-            <Route path="/donate/" component={cmp.donate} />
+            {/* <Route path="/donate/" component={cmp.donate} />
             <Route path="/donation-successful-page/" component={cmp.donated} />
-            <Route path="/donation-failure-page/" component={cmp.donateFailure} />
+            <Route path="/donation-failure-page/" component={cmp.donateFailure} /> */}
             <Route path="/contact-us/" component={cmp.contact} />
             <Route component={cmp.notFound} />
          </Switch>

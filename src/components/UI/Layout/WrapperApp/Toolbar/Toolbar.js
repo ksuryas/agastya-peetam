@@ -10,10 +10,12 @@ const toolbar = (props) => (
     <DrawerToggle clicked={props.toggleSideDrawer} />
 
     <Logo />
+    
     <div className={classes.MobileOnly}>
       <div>:|| Jai Gurudev ||:</div>
-      <div className={classes.Peetam}>Shri Agastya Peetam</div>
+      <div className={classes.Peetam}>Sree Agastya Peetam</div>
     </div>
+
     <nav className={classes.DesktopOnly}>
       <ContactBar  />
       <NavigationItems  />

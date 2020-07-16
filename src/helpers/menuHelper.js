@@ -19,10 +19,10 @@ let navItems = [
         link: "/about-deergha-sathra-yagam/",
         name: 'Deergha Sathra Yagam'
     },
-    {
-        link: "/donate/",
-        name: 'Donate'
-    }
+    // {
+    //     link: "https://pages.razorpay.com/pl_FCzSxbPFEyqWZQ/view#",
+    //     name: 'Donate'
+    // }
 ];
 
 export default navItems;

@@ -10,6 +10,10 @@ const navigationItems = () => (
           return <NavigationItem key={i} link={navItem.link} exact={i === 1 ? true : false}>{navItem.name}</NavigationItem>
       })
     }
+
+    <div className={classes.NavigationItem}>
+    <a href="https://rzp.io/l/s2lT7Z2">Donate</a>
+    </div>
    </nav>
 );
 

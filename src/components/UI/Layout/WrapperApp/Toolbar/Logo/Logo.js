@@ -6,7 +6,7 @@ const logo = () => (
        <a href="/">
         <img 
         src="/images/logo.jpg" 
-        alt="Logo of Shri Agastya Peetam" />
+        alt="Logo of Sree Agastya Peetam" />
        </a> 
     </div>
 );

@@ -14,7 +14,7 @@ const sideDrawer = (props) => {
     <Backdrop show={props.open} clicked={props.closed} />
     <div className={attachedClasses.join(' ')} onClick={props.closed}>
         <button className={classes.CloseButton} onClick={props.closed}>
-        <i className="fa fa-close" />
+          <i className="fa fa-close fa-lg" />
         </button>
     <nav>
         <NavigationItems />

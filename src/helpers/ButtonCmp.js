@@ -5,7 +5,7 @@ const ButtonCmp = (props) => {
     return (
         <button 
         type={props.type} 
-        className={[props.className, props.otherStyles, commonClasses.DefaultButton].join(' ')} 
+        className={[props.className, commonClasses.DefaultButton].join(' ')} 
         onClick={props.onClick}>
         {props.children}
         </button>
